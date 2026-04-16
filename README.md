@@ -268,18 +268,6 @@ app/src/main/java/com/example/lotterycalculator/
 - **Android社区**：优秀的开源库和技术支持
 - **所有贡献者**：感谢每一位为项目做出贡献的人
 
-## 📞 联系方式
-
-**项目维护者**：[你的名字]
-- 邮箱：[你的邮箱]
-- GitHub：[@yourusername](https://github.com/yourusername)
-- 问题反馈：[Issues](https://github.com/yourusername/LotteryCalculator/issues)
-
-**技术支持**：
-- 查看 [Wiki](https://github.com/yourusername/LotteryCalculator/wiki) 获取详细文档
-- 提交 [Issue](https://github.com/yourusername/LotteryCalculator/issues) 报告问题
-- 加入讨论 [Discussions](https://github.com/yourusername/LotteryCalculator/discussions)
-
 ---
 
 <p align="center">
