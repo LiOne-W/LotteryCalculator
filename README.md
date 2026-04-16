@@ -91,14 +91,15 @@ app/src/main/java/com/example/lotterycalculator/
 ### 安装步骤
 1. **克隆仓库**
    ```bash
-   git clone https://github.com/yourusername/LotteryCalculator.git
+   git clone https://github.com/LiOne-W/LotteryCalculator.git
    cd LotteryCalculator
    ```
 
 2. **配置API密钥**
    - 前往 [MXNZP官网](https://www.mxnzp.com/) 注册账号
    - 获取 `app_id` 和 `app_secret`
-   - 替换 `network/LotteryApiService.kt` 文件中的密钥
+   - 复制 `gradle.properties.template` 文件为 `gradle.properties`
+   - 在 `gradle.properties` 中替换 `YOUR_APP_ID_HERE` 和 `YOUR_APP_SECRET_HERE` 为您的实际密钥
 
 3. **构建应用**
    ```bash
@@ -121,12 +122,24 @@ app/src/main/java/com/example/lotterycalculator/
    - 创建新应用，获取 `app_id` 和 `app_secret`
 
 2. **配置密钥**
-   打开 `network/LotteryApiService.kt` 文件，找到以下代码行：
-   ```kotlin
-   private val appId = "your_app_id_here"
-   private val appSecret = "your_app_secret_here"
-   ```
-   将 `your_app_id_here` 和 `your_app_secret_here` 替换为您从MXNZP获取的实际密钥。
+   项目使用外部配置文件管理API密钥，确保密钥安全不泄露到代码仓库：
+
+   **方法一：使用gradle.properties文件（推荐）**
+   1. 复制项目根目录下的 `gradle.properties.template` 文件，重命名为 `gradle.properties`
+   2. 编辑 `gradle.properties` 文件，找到以下配置项：
+      ```
+      MXNZP_API_APP_ID=YOUR_APP_ID_HERE
+      MXNZP_API_APP_SECRET=YOUR_APP_SECRET_HERE
+      ```
+   3. 将 `YOUR_APP_ID_HERE` 和 `YOUR_APP_SECRET_HERE` 替换为您从MXNZP获取的实际密钥
+
+   **方法二：使用环境变量（高级用户）**
+   您也可以通过设置环境变量的方式配置API密钥：
+   - 设置 `MXNZP_API_APP_ID` 环境变量为您的app_id
+   - 设置 `MXNZP_API_APP_SECRET` 环境变量为您的app_secret
+
+   **验证配置**
+   配置完成后，重新构建应用，API密钥将自动注入到BuildConfig中，应用代码通过 `BuildConfig.MXNZP_APP_ID` 和 `BuildConfig.MXNZP_APP_SECRET` 读取密钥。
 
 3. **注意事项**
    - 请妥善保管您的API密钥，不要公开分享

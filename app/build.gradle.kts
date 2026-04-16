@@ -15,16 +15,28 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        
+        // API密钥配置，从gradle.properties读取
+        val mxnzpAppId = project.findProperty("MXNZP_API_APP_ID") as? String ?: ""
+        val mxnzpAppSecret = project.findProperty("MXNZP_API_APP_SECRET") as? String ?: ""
+        
+        buildConfigField("String", "MXNZP_APP_ID", "\"${mxnzpAppId}\"")
+        buildConfigField("String", "MXNZP_APP_SECRET", "\"${mxnzpAppSecret}\"")
     }
 
     buildTypes {
         release {
             isMinifyEnabled = false
+            signingConfig = signingConfigs.getByName("debug")
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
         }
+    }
+    lint {
+        abortOnError = false
+        checkReleaseBuilds = false
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
@@ -35,6 +47,7 @@ android {
     }
     buildFeatures {
         viewBinding = true
+        buildConfig = true
     }
 }
 

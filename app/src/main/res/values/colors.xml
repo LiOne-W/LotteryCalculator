@@ -43,4 +43,6 @@
     <color name="dark_surface">#FF1E1E1E</color>
     <color name="light_text_primary">#FFFFFFFF</color>
     <color name="light_text_secondary">#FFB3B3B3</color>
+    <color name="text_primary">#FF000000</color>
+    <color name="text_secondary">#FF757575</color>
 </resources>

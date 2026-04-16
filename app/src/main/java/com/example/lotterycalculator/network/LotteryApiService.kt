@@ -18,13 +18,14 @@ import java.util.Locale
 import javax.crypto.Mac
 import javax.crypto.spec.SecretKeySpec
 import java.util.Base64
+import com.example.lotterycalculator.BuildConfig
 
 class LotteryApiService {
     companion object {
         private const val TAG = "LotteryApiService"
     }
-    private val appId = "your_app_id_here"
-    private val appSecret = "your_app_secret_here"
+    private val appId = BuildConfig.MXNZP_APP_ID
+    private val appSecret = BuildConfig.MXNZP_APP_SECRET
     private val baseUrl = "https://www.mxnzp.com/api"
     
     suspend fun getLatestDrawResult(lotteryType: LotteryType): DrawResult? {

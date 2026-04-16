@@ -23,7 +23,7 @@ android.useAndroidX=true
 android.enableJetifier=true
 
 # MXNZP API Configuration
-# 请前往 https://www.mxnzap.com 注册获取您的API密钥
+# 请前往 https://www.mxnzp.com 注册获取您的API密钥
 # 然后替换下面的占位符值
 MXNZP_API_APP_ID=YOUR_APP_ID_HERE
 MXNZP_API_APP_SECRET=YOUR_APP_SECRET_HERE
