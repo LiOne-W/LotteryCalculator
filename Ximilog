@@ -1,0 +1,63 @@
+---------------------------- PROCESS STARTED (9348) for package com.example.lotterycalculator ----------------------------
+2026-04-15 19:59:18.585  9348-9348  LotteryRepository       com.example.lotterycalculator        D  直接更新期号边界 - 彩票类型: DALETOU, 最新期: 2026039, 最早期: 2026010
+2026-04-15 19:59:19.909  9348-9348  LotteryRepository       com.example.lotterycalculator        D  直接更新期号边界 - 彩票类型: SHUANGSEQIU, 最新期: 2026041, 最早期: 2026012
+2026-04-15 19:59:23.833  9348-9348  CalculationFragment     com.example.lotterycalculator        D  上一期按钮状态更新: true
+2026-04-15 19:59:23.833  9348-9348  CalculationFragment     com.example.lotterycalculator        D  上一期按钮启用状态: true, alpha: 1.0
+2026-04-15 19:59:23.833  9348-9348  CalculationFragment     com.example.lotterycalculator        D  下一期按钮状态更新: true
+2026-04-15 19:59:23.834  9348-9348  CalculationFragment     com.example.lotterycalculator        D  下一期按钮启用状态: true, alpha: 1.0
+2026-04-15 19:59:23.997  9348-9348  CalculationViewModel    com.example.lotterycalculator        D  开始加载历史数据，彩票类型: DALETOU
+2026-04-15 19:59:24.008  9348-9348  CalculationViewModel    com.example.lotterycalculator        D  updatePeriodButtonStates called - currentResult: DrawResult(id=2026039, lotteryType=DALETOU, period=2026039, drawDate=Mon Apr 13 21:25:00 GMT+08:00 2026, frontNumbers=[9, 11, 20, 26, 27], backNumbers=[6, 9], prizePool=null, sales=null, jackpotWinners=null, jackpotPrize=null)
+2026-04-15 19:59:24.008  9348-9348  CalculationViewModel    com.example.lotterycalculator        W  期号边界未缓存，无法判断按钮状态，禁用所有按钮
+2026-04-15 19:59:24.008  9348-9348  CalculationFragment     com.example.lotterycalculator        D  上一期按钮状态更新: false
+2026-04-15 19:59:24.008  9348-9348  CalculationFragment     com.example.lotterycalculator        D  上一期按钮启用状态: false, alpha: 0.5
+2026-04-15 19:59:24.009  9348-9348  CalculationFragment     com.example.lotterycalculator        D  下一期按钮状态更新: false
+2026-04-15 19:59:24.009  9348-9348  CalculationFragment     com.example.lotterycalculator        D  下一期按钮启用状态: false, alpha: 0.5
+2026-04-15 19:59:24.079  9348-9348  LotteryRepository       com.example.lotterycalculator        D  获取历史数据，原始数量: 0
+2026-04-15 19:59:24.079  9348-9348  LotteryRepository       com.example.lotterycalculator        W  历史数据为空，无法更新期号边界
+2026-04-15 19:59:24.079  9348-9348  LotteryRepository       com.example.lotterycalculator        D  历史数据缓存已更新 - 彩票类型: DALETOU, 缓存数量: 0
+2026-04-15 19:59:24.079  9348-9348  CalculationViewModel    com.example.lotterycalculator        D  API获取历史数据结果: 0 条
+2026-04-15 19:59:24.079  9348-9348  CalculationViewModel    com.example.lotterycalculator        D  updatePeriodButtonStates called - currentResult: DrawResult(id=2026039, lotteryType=DALETOU, period=2026039, drawDate=Mon Apr 13 21:25:00 GMT+08:00 2026, frontNumbers=[9, 11, 20, 26, 27], backNumbers=[6, 9], prizePool=null, sales=null, jackpotWinners=null, jackpotPrize=null)
+2026-04-15 19:59:24.079  9348-9348  CalculationViewModel    com.example.lotterycalculator        W  期号边界未缓存，无法判断按钮状态，禁用所有按钮
+2026-04-15 19:59:24.079  9348-9348  CalculationFragment     com.example.lotterycalculator        D  上一期按钮状态更新: false
+2026-04-15 19:59:24.079  9348-9348  CalculationFragment     com.example.lotterycalculator        D  上一期按钮启用状态: false, alpha: 0.5
+2026-04-15 19:59:24.079  9348-9348  CalculationFragment     com.example.lotterycalculator        D  下一期按钮状态更新: false
+2026-04-15 19:59:24.079  9348-9348  CalculationFragment     com.example.lotterycalculator        D  下一期按钮启用状态: false, alpha: 0.5
+2026-04-15 20:00:48.098  9348-9348  LotteryRepository       com.example.lotterycalculator        D  获取历史数据，原始数量: 30
+2026-04-15 20:00:48.098  9348-9348  LotteryRepository       com.example.lotterycalculator        D  原始顺序 - 第1期: 2026039, 最后1期: 2026010
+2026-04-15 20:00:48.099  9348-9348  LotteryRepository       com.example.lotterycalculator        D  反转后 - 第1期: 2026010, 最后1期: 2026039
+2026-04-15 20:00:48.099  9348-9348  LotteryRepository       com.example.lotterycalculator        D  更新期号边界 - 彩票类型: DALETOU, 最新期: 2026010, 最早期: 2026001
+2026-04-15 20:00:48.099  9348-9348  LotteryRepository       com.example.lotterycalculator        D  历史数据缓存已更新 - 彩票类型: DALETOU, 缓存数量: 30
+2026-04-15 20:00:48.100  9348-9348  CalculationFragment     com.example.lotterycalculator        D  获取历史数据数量: 30
+2026-04-15 20:00:48.100  9348-9348  CalculationFragment     com.example.lotterycalculator        D  原始顺序 - 第1期: 2026010, 最后1期: 2026039
+2026-04-15 20:00:48.101  9348-9348  CalculationFragment     com.example.lotterycalculator        D  排序后期号列表: [2026039, 2026038, 2026037, 2026036, 2026035]... (共30期)
+2026-04-15 20:01:15.787  9348-9348  CalculationFragment     com.example.lotterycalculator        D  选择期号: 2026030
+2026-04-15 20:01:15.788  9348-9348  CalculationViewModel    com.example.lotterycalculator        D  尝试使用aim_lottery接口获取期号: 2026030
+2026-04-15 20:01:15.788  9348-9348  LotteryRepository       com.example.lotterycalculator        D  请求指定期号开奖结果，彩票类型: DALETOU, 期号: 2026030
+2026-04-15 20:01:16.124  9348-9348  LotteryRepository       com.example.lotterycalculator        D  成功获取期号 2026030 开奖结果
+2026-04-15 20:01:16.128  9348-9348  CalculationViewModel    com.example.lotterycalculator        D  updatePeriodButtonStates called - currentResult: DrawResult(id=2026030, lotteryType=DALETOU, period=2026030, drawDate=Mon Mar 23 21:25:00 GMT+08:00 2026, frontNumbers=[2, 13, 22, 28, 34], backNumbers=[5, 12], prizePool=null, sales=null, jackpotWinners=null, jackpotPrize=null)
+2026-04-15 20:01:16.128  9348-9348  CalculationViewModel    com.example.lotterycalculator        D  使用期号边界判断 - 最新期: 2026010, 最早期: 2026001
+2026-04-15 20:01:16.128  9348-9348  CalculationViewModel    com.example.lotterycalculator        W  当前期号 2026030 超出边界范围（最早: 2026001, 最新: 2026010），禁用所有按钮
+2026-04-15 20:01:16.128  9348-9348  CalculationFragment     com.example.lotterycalculator        D  上一期按钮状态更新: false
+2026-04-15 20:01:16.128  9348-9348  CalculationFragment     com.example.lotterycalculator        D  上一期按钮启用状态: false, alpha: 0.5
+2026-04-15 20:01:16.128  9348-9348  CalculationFragment     com.example.lotterycalculator        D  下一期按钮状态更新: false
+2026-04-15 20:01:16.129  9348-9348  CalculationFragment     com.example.lotterycalculator        D  下一期按钮启用状态: false, alpha: 0.5
+2026-04-15 20:03:28.042  9348-9348  LotteryRepository       com.example.lotterycalculator        D  获取历史数据，原始数量: 30
+2026-04-15 20:03:28.042  9348-9348  LotteryRepository       com.example.lotterycalculator        D  原始顺序 - 第1期: 2026039, 最后1期: 2026010
+2026-04-15 20:03:28.042  9348-9348  LotteryRepository       com.example.lotterycalculator        D  反转后 - 第1期: 2026010, 最后1期: 2026039
+2026-04-15 20:03:28.042  9348-9348  LotteryRepository       com.example.lotterycalculator        D  更新期号边界 - 彩票类型: DALETOU, 最新期: 2026010, 最早期: 2026001
+2026-04-15 20:03:28.042  9348-9348  LotteryRepository       com.example.lotterycalculator        D  历史数据缓存已更新 - 彩票类型: DALETOU, 缓存数量: 30
+2026-04-15 20:03:28.042  9348-9348  CalculationFragment     com.example.lotterycalculator        D  获取历史数据数量: 30
+2026-04-15 20:03:28.043  9348-9348  CalculationFragment     com.example.lotterycalculator        D  原始顺序 - 第1期: 2026010, 最后1期: 2026039
+2026-04-15 20:03:28.043  9348-9348  CalculationFragment     com.example.lotterycalculator        D  排序后期号列表: [2026039, 2026038, 2026037, 2026036, 2026035]... (共30期)
+2026-04-15 20:03:49.472  9348-9348  CalculationFragment     com.example.lotterycalculator        D  选择期号: 2026010
+2026-04-15 20:03:49.472  9348-9348  CalculationViewModel    com.example.lotterycalculator        D  尝试使用aim_lottery接口获取期号: 2026010
+2026-04-15 20:03:49.473  9348-9348  LotteryRepository       com.example.lotterycalculator        D  请求指定期号开奖结果，彩票类型: DALETOU, 期号: 2026010
+2026-04-15 20:03:49.588  9348-9348  LotteryRepository       com.example.lotterycalculator        D  成功获取期号 2026010 开奖结果
+2026-04-15 20:03:49.590  9348-9348  CalculationViewModel    com.example.lotterycalculator        D  updatePeriodButtonStates called - currentResult: DrawResult(id=2026010, lotteryType=DALETOU, period=2026010, drawDate=Sat Jan 24 21:25:00 GMT+08:00 2026, frontNumbers=[2, 3, 13, 18, 26], backNumbers=[2, 9], prizePool=null, sales=null, jackpotWinners=null, jackpotPrize=null)
+2026-04-15 20:03:49.590  9348-9348  CalculationViewModel    com.example.lotterycalculator        D  使用期号边界判断 - 最新期: 2026010, 最早期: 2026001
+2026-04-15 20:03:49.590  9348-9348  CalculationViewModel    com.example.lotterycalculator        D  当前期号位置 - 在最早期: false, 在最新期: true
+2026-04-15 20:03:49.590  9348-9348  CalculationFragment     com.example.lotterycalculator        D  上一期按钮状态更新: true
+2026-04-15 20:03:49.591  9348-9348  CalculationFragment     com.example.lotterycalculator        D  上一期按钮启用状态: true, alpha: 1.0
+2026-04-15 20:03:49.591  9348-9348  CalculationFragment     com.example.lotterycalculator        D  下一期按钮状态更新: false
+2026-04-15 20:03:49.591  9348-9348  CalculationFragment     com.example.lotterycalculator        D  下一期按钮启用状态: false, alpha: 0.5
+2026-04-15 20:03:49.591  9348-9348  CalculationViewModel    com.example.lotterycalculator        D  按钮状态 - 有上一期: true, 有下一期: false
